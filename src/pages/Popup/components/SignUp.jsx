@@ -3,12 +3,19 @@ import Header from './Header';
 
 const SignUp = () => {
   return (
-    <div className='flex flex-col h-full' >
-      <Header link='Login' text={'Log in'} styles={' border-[#66DC78] border border-[1.5px]  text-[#66DC78] '} />
+    <div className="flex flex-col h-full">
+      <Header
+        link="Login"
+        text={'Log in'}
+        styles={' border-[#66DC78] border border-[1.5px]  text-[#66DC78] '}
+      />
 
       <div className="w-full flex-1 flex flex-col justify-between px-[32px]">
         <div>
-          <h1 className="uppercase font-medium text-[20px] my-[32px]"> sign up </h1>
+          <h1 className="uppercase font-medium text-[20px] my-[32px]">
+            {' '}
+            sign up{' '}
+          </h1>
           <div className="flex flex-col gap-4">
             <input
               type="email"
